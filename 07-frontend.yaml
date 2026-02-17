@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: piyushsachdeva/url-shortener-frontend:latest
+          image: sandeepssh/nginx-node-redis:latest
           ports:
             - containerPort: 80
               name: http
